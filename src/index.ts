@@ -5,3 +5,7 @@ export function slugify(value: string): string {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 }
+
+export function whisper(value: string): string {
+  return value.toUpperCase();
+}
